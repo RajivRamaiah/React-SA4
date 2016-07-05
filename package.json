@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/RajivRamaiah/js-starter-workshop/issues"
   },
-  "homepage": "https://github.com/RajivRamaiah/js-starter-workshop#readme"
+  "homepage": "https://github.com/RajivRamaiah/js-starter-workshop#readme",
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
