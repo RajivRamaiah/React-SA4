@@ -2,9 +2,9 @@
 import $ from 'jquery';
 import './style.scss';
 
-var i = 1;
-
-var interval = setInterval( increment, 1000);
+// The following code was inspired by http://stackoverflow.com/questions/10586890/increment-integer-by-1-every-1-second
+let i = 1;
+setInterval(increment, 1000);
 
 function increment(){
     i = i % 360 + 1;
