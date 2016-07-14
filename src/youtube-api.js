@@ -1,3 +1,6 @@
+//  Rajiv Ramaiah, CS52, Summer '16
+//  Sources: http://cs52.me/assignments/sa4/
+
 import axios from 'axios';
 
 const API_URL = 'https://www.googleapis.com/youtube/v3/search';

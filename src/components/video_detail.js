@@ -1,3 +1,6 @@
+//  Rajiv Ramaiah, CS52, Summer '16
+//  Sources: http://cs52.me/assignments/sa4/
+
 import React from 'react';
 
 const VideoDetail = ({ video }) => {
