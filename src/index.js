@@ -5,6 +5,7 @@ import youtubeSearch from './youtube-api.js';
 import React, { Component } from 'react';
 import VideoList from './components/video_list.js';
 import VideoDetail from './components/video_detail';
+import debounce from 'lodash.debounce';
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
     };
 
     this.search('pixar');
+    this.search = debounce(this.search, 300);
   }
 
   search(text) {
