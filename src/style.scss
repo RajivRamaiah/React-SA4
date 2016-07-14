@@ -1,5 +1,5 @@
-$fontcolor:  rgb(10%, 10%, 10%);
-$backgroundcolor: rgb(98%, 98%, 98%);
+$fontcolor:  rgb(100%, 100%, 100%);
+$backgroundcolor: rgb(10%, 10%, 10%);
 
 
 body {
@@ -11,7 +11,7 @@ body {
 
 
 #search-bar {
-  margin-bottom: 20px;
+  margin-bottom: 200px;
 
   input {
     font-size: 1.5em;
@@ -33,5 +33,4 @@ body {
   li:hover {
     background: darken( $backgroundcolor, 10% );
   }
-
 }

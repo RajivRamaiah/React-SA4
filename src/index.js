@@ -1,3 +1,7 @@
+//  Rajiv Ramaiah, CS52, Summer '16
+//  Sources: http://cs52.me/assignments/sa4/
+
+
 import './style.scss';
 import ReactDOM from 'react-dom';
 import SearchBar from './components/search_bar';
@@ -23,6 +27,7 @@ class App extends Component {
 
   search(text) {
     youtubeSearch(text).then(videos => {
+      console.log(videos);
       this.setState({
         videos,
         selectedVideo: videos[0],
