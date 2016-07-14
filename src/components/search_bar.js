@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import debounce from 'lodash.debounce';
+import debounce from 'lodash.debounce';
 
 class SearchBar extends Component {
 
@@ -10,7 +10,7 @@ class SearchBar extends Component {
 
     this.onInputChange = this.onInputChange.bind(this);
 
-    // this.search = debounce(this.search, 300);
+    this.search = debounce(this.search, 300);
   }
 
   onInputChange(event) {
