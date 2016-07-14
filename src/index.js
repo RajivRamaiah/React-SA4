@@ -41,7 +41,8 @@ class App extends Component {
     }
     return (
       <div>
-        <div id="searchbar">
+        <div id="search-bar">
+          <h1>MyTube - @CS52 Productions</h1>
           <SearchBar onSearchChange={text => this.search(text)} />
         </div>
 
